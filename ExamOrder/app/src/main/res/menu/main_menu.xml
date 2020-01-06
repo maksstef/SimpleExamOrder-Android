@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_medium_mark"
+        android:orderInCategory="1"
+        android:title="Сортировка по оценке" />
+    <item
+        android:id="@+id/sort_medium_mark_desc"
+        android:orderInCategory="1"
+        android:title="Сортировка по оценке обратная" />
+    <item
+        android:id="@+id/sort_order"
+        android:orderInCategory="2"
+        android:title="Сортировка в порядке очереди" />
+    <item
+        android:id="@+id/sort_order_desc"
+        android:orderInCategory="2"
+        android:title="Сортировка очереди обратная" />
+</menu>

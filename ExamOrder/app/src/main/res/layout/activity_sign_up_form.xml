@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50px"
+    android:paddingLeft="30px"
+    android:paddingRight="30px">
+
+    <TableRow>
+        <TextView
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:text="Имя/Фамилия"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/name"
+            android:textSize="22sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"  />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:text="Группа:"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/groups"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:text="Экзамен:"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/subjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:text="Место в очереди"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/position"
+            android:textSize="22sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"  />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:text="Оценка"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/mark"
+            android:textSize="22sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"  />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="записаться"
+            android:onClick="SignUp"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:backgroundTint="#A73DD4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="420dp"/>
+    </TableRow>
+</TableLayout>
